@@ -1,6 +1,6 @@
 ARG BASE_USER
 ARG MAINTAINER
-FROM ${BASE_USER}/debian:testing
+FROM ${BASE_USER}/ubuntu:stable
 MAINTAINER $MAINTAINER
 
 # Install Packages (basic tools, cups, basic drivers, HP drivers)
