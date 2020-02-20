@@ -1,7 +1,4 @@
-ARG BASE_USER
-ARG MAINTAINER
-FROM ${BASE_USER}/ubuntu:stable
-MAINTAINER $MAINTAINER
+FROM ubuntu:latest
 
 # Install Packages (basic tools, cups, basic drivers, HP drivers)
 RUN apt-get update \
